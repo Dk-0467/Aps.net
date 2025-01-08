@@ -1,0 +1,79 @@
+﻿@model buiduckiem_aps.net.Context.Product
+
+@{
+    ViewBag.Title = "Chi tiết sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center my-4">Chi tiết sản phẩm</h2>
+
+<div class="container">
+    <div class="card shadow-sm p-4">
+        <h4 class="card-title mb-3">Thông tin sản phẩm</h4>
+        <hr />
+        <div class="row">
+            <!-- Cột 1 -->
+            <div class="col-md-6">
+                <dl class="row">
+                    <dt class="col-sm-4">Tên sản phẩm:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                    <dt class="col-sm-4">Ảnh đại diện:</dt>
+                    <dd class="col-sm-8">
+                        <img src="@Url.Content("~/Content/images/items/" + Model.Avatar)" alt="Ảnh đại diện" class="img-thumbnail" style="max-height: 150px;" />
+                    </dd>
+
+                    <dt class="col-sm-4">Mô tả ngắn:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.ShortDes)</dd>
+
+                    <dt class="col-sm-4">Giá:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+
+                    <dt class="col-sm-4">Giá giảm:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.PriceDiscount)</dd>
+
+                    <dt class="col-sm-4">Loại sản phẩm:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.TypeId)</dd>
+
+                    <dt class="col-sm-4">Slug:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Slug)</dd>
+                </dl>
+            </div>
+
+            <!-- Cột 2 -->
+            <div class="col-md-6">
+                <dl class="row">
+                    <dt class="col-sm-4">Mô tả chi tiết:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.FullDescription)</dd>
+
+                    <dt class="col-sm-4">Xóa:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Deleted)</dd>
+
+                    <dt class="col-sm-4">Hiển thị trang chủ:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.ShowOnHomePage)</dd>
+
+                    <dt class="col-sm-4">Thứ tự hiển thị:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.DisplayOrder)</dd>
+
+                    <dt class="col-sm-4">Ngày tạo:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedOnUtc)</dd>
+
+                    <dt class="col-sm-4">Ngày cập nhật:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.UpdatedOnUtc)</dd>
+
+                    <dt class="col-sm-4">Thương hiệu:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Brand.Name)</dd>
+
+                    <dt class="col-sm-4">Danh mục:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Category.Name)</dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr />
+        <div class="text-center">
+            @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary me-2" })
+            @Html.ActionLink("Quay lại", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    </div>
+</div>

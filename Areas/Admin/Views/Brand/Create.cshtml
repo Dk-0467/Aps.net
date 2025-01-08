@@ -1,0 +1,69 @@
+﻿@model buiduckiem_aps.net.Context.Brand
+
+@{
+    ViewBag.Title = "Create Brand";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Tạo Thương Hiệu Mới</h4>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Create", "Brand", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    @Html.LabelFor(model => model.Name, "Tên Thương Hiệu", new { @class = "form-label" })
+                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập tên thương hiệu..." } })
+                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="mb-3">
+                    @Html.Label("Hình Ảnh", new { @class = "form-label" })
+                    <input type="file" name="ImageUpload" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(model => model.Slug, "Slug", new { @class = "form-label" })
+                    @Html.EditorFor(model => model.Slug, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập slug..." } })
+                    @Html.ValidationMessageFor(model => model.Slug, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-check mb-3">
+                    @Html.EditorFor(model => model.ShowOnHomePage, new { htmlAttributes = new { @class = "form-check-input" } })
+                    @Html.LabelFor(model => model.ShowOnHomePage, "Hiển thị trên trang chủ", new { @class = "form-check-label" })
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(model => model.DisplayOrder, "Thứ Tự Hiển Thị", new { @class = "form-label" })
+                    @Html.EditorFor(model => model.DisplayOrder, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập thứ tự hiển thị..." } })
+                    @Html.ValidationMessageFor(model => model.DisplayOrder, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        @Html.LabelFor(model => model.CreatedOnUtc, "Ngày Tạo", new { @class = "form-label" })
+                        @Html.EditorFor(model => model.CreatedOnUtc, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        @Html.LabelFor(model => model.UpdatedOnUtc, "Ngày Cập Nhật", new { @class = "form-label" })
+                        @Html.EditorFor(model => model.UpdatedOnUtc, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                    </div>
+                </div>
+
+                <div class="form-check mb-3">
+                    @Html.EditorFor(model => model.Deleted, new { htmlAttributes = new { @class = "form-check-input" } })
+                    @Html.LabelFor(model => model.Deleted, "Đã Xóa", new { @class = "form-check-label" })
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a href="@Url.Action("Index", "Brand")" class="btn btn-secondary">Quay Lại</a>
+                    <button type="submit" class="btn btn-success">Tạo Mới</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

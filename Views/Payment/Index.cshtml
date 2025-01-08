@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thanh toán thành công </h2>
+<p><a href="@Url.Action("Index","Home")"> tiếp tục mua hàng </a></p>
+<script>// Clear the cart from localStorage
+    localStorage.removeItem("cart");
+
+    // Optionally, clear any other related items if needed
+    // localStorage.removeItem("otherKey");</script>
+

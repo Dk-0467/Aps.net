@@ -1,0 +1,81 @@
+﻿@model buiduckiem_aps.net.Context.Product
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-danger">Delete Product</h2>
+
+<h3 class="text-warning mb-4">Bạn có muốn xóa sản phẩm này ?</h3>
+
+<div class="card shadow-lg p-4">
+    <hr />
+    <div class="row">
+        <!-- Cột 1 -->
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Tên sản phẩm:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-4">Ảnh đại diện:</dt>
+                <dd class="col-sm-8">
+                    <img src="@Url.Content("~/Content/images/items/" + Model.Avatar)" alt="Ảnh đại diện" class="img-thumbnail" style="max-height: 150px;" />
+                </dd>
+
+                <dt class="col-sm-4">Mô tả ngắn:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.ShortDes)</dd>
+
+                <dt class="col-sm-4">Giá:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+
+                <dt class="col-sm-4">Giá giảm:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.PriceDiscount)</dd>
+
+                <dt class="col-sm-4">Loại sản phẩm:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TypeId)</dd>
+
+                <dt class="col-sm-4">Slug:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Slug)</dd>
+            </dl>
+        </div>
+
+        <!-- Cột 2 -->
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">Mô tả chi tiết:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.FullDescription)</dd>
+
+                <dt class="col-sm-4">Xóa:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Deleted)</dd>
+
+                <dt class="col-sm-4">Hiển thị trang chủ:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.ShowOnHomePage)</dd>
+
+                <dt class="col-sm-4">Thứ tự hiển thị:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DisplayOrder)</dd>
+
+                <dt class="col-sm-4">Ngày tạo:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedOnUtc)</dd>
+
+                <dt class="col-sm-4">Ngày cập nhật:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.UpdatedOnUtc)</dd>
+
+                <dt class="col-sm-4">Thương hiệu:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Brand.Name)</dd>
+
+                <dt class="col-sm-4">Danh mục:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Category.Name)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        @using (Html.BeginForm("Delete", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-danger">Delete</button>
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary ms-3" })
+        }
+    </div>
+</div>
