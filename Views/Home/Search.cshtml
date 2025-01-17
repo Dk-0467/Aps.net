@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .card {
+        position: relative;
+        overflow: hidden;
+        border: none;
+        border-radius: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        height: 100%;
+    }
+
+        .card img {
+            transition: transform 0.3s ease;
+            object-fit: cover;
+            height: 450px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px); /* Đẩy card lên khi hover */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+            .card:hover img {
+                transform: scale(1.1); /* Phóng to hình ảnh khi hover */
+            }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+        min-height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .card .btn-primary {
+        background-color: #FF6347;
+        border-color: #FF6347;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .card .btn-primary:hover {
+            background-color: #FF4500;
+            border-color: #FF4500;
+        }
+
+    .card .badge-secondary {
+        background-color: #6c757d;
+        padding: 5px 10px;
+        font-size: 1rem;
+        border-radius: 15px;
+    }
+    .card .badge-secondary {
+        background-color: transparent; /* Xóa màu nền */
+        color: #333; /* Màu chữ đậm */
+        font-weight: bold; /* Tô đậm chữ */
+        padding: 0; /* Xóa padding nếu không cần */
+        font-size: 1rem; /* Giữ kích thước chữ */
+    }
+
+
+</style>
+@if (Model.ListProduct.Count > 0)
+{
+    <div class="row">
+        @foreach (var product in Model.ListProduct)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-lg border-0 rounded overflow-hidden">
+                    <img src="@Url.Content("~/Content/images/items/" + product.Avatar)" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">@product.Name</h5>
+                        <p class="card-text text-muted">@product.FullDescription</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="@Url.Action("Detail", "Product", new { id = product.Id })" class="btn btn-primary">Chi tiết</a>
+                            <span class="badge-secondary">VNĐ @product.Price</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p class="text-center">Không có sản phẩm đó</p>
+}

@@ -15,40 +15,56 @@ namespace buiduckiem_aps.net.Controllers
         // GET: Payment
         public ActionResult Index()
         {
+            // Kiểm tra nếu người dùng chưa đăng nhập
             if (Session["idUser"] == null)
             {
-
                 return RedirectToAction("Login", "Home");
-
             }
 
+            // Lấy giỏ hàng từ Session
+            var lstCart = (List<CartModel>)Session["Cart"];
 
-            else
+            // Kiểm tra nếu giỏ hàng trống
+            if (lstCart == null || !lstCart.Any())
             {
-                var lstCart = (List<CartModel>)Session["Cart"];
-                Order obj = new Order();
-                obj.Name = "DonHang" + DateTime.Now.ToString("yyyyMMddHHmmss");
-                obj.UserId = int.Parse(Session["idUser"].ToString());
-                obj.CreatedOnUtc = DateTime.Now;
-                obj.Status = 1;
-                objWebsiteBanHangEntities.Orders.Add(obj);
-                objWebsiteBanHangEntities.SaveChanges();
-                int intOrderId = obj.Id;
-                List<OrderDetail> orderDetails = new List<OrderDetail>();
-                foreach (var cart in lstCart)
-                {
-                    OrderDetail objOrderDetail = new OrderDetail();
-                    objOrderDetail.Quantity = cart.Quantity;
-                    objOrderDetail.OrderId = intOrderId;
-                    objOrderDetail.ProductId = cart.Product.Id;
-                    orderDetails.Add(objOrderDetail);
-                }
-                objWebsiteBanHangEntities.OrderDetails.AddRange(orderDetails);
-
-                @Session["cart"] = null;
-                @Session["count"] = 0;
-                objWebsiteBanHangEntities.SaveChanges();
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống. Vui lòng thêm sản phẩm trước khi thanh toán.";
+                return RedirectToAction("Index", "Home"); // Chuyển hướng về trang giỏ hàng
             }
+
+            // Tạo đơn hàng
+            Context.Order obj = new Context.Order
+            {
+                Name = "DonHang" + DateTime.Now.ToString("yyyyMMddHHmmss"),
+                UserId = int.Parse(Session["idUser"].ToString()),
+                CreatedOnUtc = DateTime.Now,
+                Status = 1
+            };
+            objWebsiteBanHangEntities.Orders.Add(obj);
+            objWebsiteBanHangEntities.SaveChanges();
+
+            // Lấy ID của đơn hàng vừa tạo
+            int intOrderId = obj.Id;
+
+            // Thêm chi tiết đơn hàng
+            List<OrderDetail> orderDetails = new List<OrderDetail>();
+            foreach (var cart in lstCart)
+            {
+                OrderDetail objOrderDetail = new OrderDetail
+                {
+                    Quantity = cart.Quantity,
+                    OrderId = intOrderId,
+                    ProductId = cart.Product.Id
+                };
+                orderDetails.Add(objOrderDetail);
+            }
+            objWebsiteBanHangEntities.OrderDetails.AddRange(orderDetails);
+
+            // Xóa giỏ hàng sau khi thanh toán thành công
+            Session["Cart"] = null;
+            Session["count"] = 0;
+            objWebsiteBanHangEntities.SaveChanges();
+
+            TempData["SuccessMessage"] = "Đơn hàng của bạn đã được tạo thành công!";
             return View();
         }
     }

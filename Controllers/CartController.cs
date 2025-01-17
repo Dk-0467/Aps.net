@@ -21,12 +21,19 @@ namespace buiduckiem_aps.net.Controllers
 
         public ActionResult AddToCart(int id, int quantity)
         {
+            if (Session["idUser"] == null)
+            {
+                // Trả về trạng thái yêu cầu đăng nhập
+                return Json(new { Status = "NotLoggedIn" }, JsonRequestBehavior.AllowGet);
+            }
+
+            // Nếu giỏ hàng chưa tồn tại, khởi tạo giỏ hàng mới
             if (Session["cart"] == null)
             {
                 List<CartModel> cart = new List<CartModel>();
                 cart.Add(new CartModel { Product = objWebsiteBanHangEntities.Products.Find(id), Quantity = quantity });
                 Session["cart"] = cart;
-                Session["count"] = 1;
+                Session["count"] = 1;  // Khởi tạo số lượng sản phẩm trong giỏ hàng
             }
             else
             {
@@ -50,7 +57,9 @@ namespace buiduckiem_aps.net.Controllers
 
             // Tính lại tổng tiền
             ViewBag.TotalPrice = CalculateTotal();
-            return Json(new { Message = "Thành công", TotalPrice = ViewBag.TotalPrice }, JsonRequestBehavior.AllowGet);
+
+            // Trả về kết quả dưới dạng JSON
+            return Json(new { success = true, message = "Sản phẩm đã được thêm vào giỏ hàng.", totalPrice = ViewBag.TotalPrice }, JsonRequestBehavior.AllowGet);
         }
 
         private int isExist(int id)
@@ -63,17 +72,40 @@ namespace buiduckiem_aps.net.Controllers
         }
 
         // Xóa sản phẩm khỏi giỏ hàng theo id
-        public ActionResult Remove(int Id)
+        [HttpPost]
+        public JsonResult Remove(int Id)
         {
-            List<CartModel> li = (List<CartModel>)Session["cart"];
-            li.RemoveAll(x => x.Product.Id == Id);
-            Session["cart"] = li;
-            Session["count"] = Convert.ToInt32(Session["count"]) - 1;
+            try
+            {
+                // Xóa sản phẩm theo Id trong giỏ hàng
+                var cart = Session["Cart"] as List<CartModel>;
+                var itemToRemove = cart?.FirstOrDefault(x => x.Product.Id == Id);
 
-            // Tính lại tổng tiền
-            var total = CalculateTotal();
-            return Json(new { Message = "Thành công", TotalPrice = total }, JsonRequestBehavior.AllowGet);
+                if (itemToRemove != null)
+                {
+                    cart.Remove(itemToRemove);
+                    Session["Cart"] = cart;
+
+                    // Cập nhật tổng tiền và số lượng
+                    var totalPrice = cart.Sum(x => x.Quantity * x.Product.Price);
+                    var count = cart.Count;
+
+                    return Json(new
+                    {
+                        success = true,
+                        TotalPrice = totalPrice,
+                        Count = count
+                    });
+                }
+
+                return Json(new { success = false, message = "Sản phẩm không tồn tại trong giỏ hàng!" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.Message });
+            }
         }
+
 
         // Hàm tính tổng tiền của giỏ hàng
         private decimal CalculateTotal()
@@ -84,5 +116,44 @@ namespace buiduckiem_aps.net.Controllers
 
             return (decimal)cart.Sum(item => item.Quantity * item.Product.Price);
         }
+
+        public ActionResult UpdateQuantity(int id, int quantity)
+        {
+            try
+            {
+                if (Session["cart"] == null)
+                    return Json(new { success = false, message = "Giỏ hàng hiện tại trống!" }, JsonRequestBehavior.AllowGet);
+
+                List<CartModel> cart = (List<CartModel>)Session["cart"];
+                var product = cart.FirstOrDefault(x => x.Product.Id == id);
+
+                if (product == null)
+                    return Json(new { success = false, message = "Sản phẩm không tồn tại trong giỏ hàng!" }, JsonRequestBehavior.AllowGet);
+
+                if (quantity <= 0)
+                    return Json(new { success = false, message = "Số lượng phải lớn hơn 0!" }, JsonRequestBehavior.AllowGet);
+
+                // Cập nhật số lượng
+                product.Quantity = quantity;
+
+                // Lưu giỏ hàng vào session
+                Session["cart"] = cart;
+
+                // Tính lại tổng tiền
+                var totalPrice = CalculateTotal();
+
+                return Json(new
+                {
+                    success = true,
+                    totalPrice = totalPrice,
+                    totalPriceFormatted = $"{totalPrice:N0} VND"
+                }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Có lỗi xảy ra: " + ex.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
     }
 }

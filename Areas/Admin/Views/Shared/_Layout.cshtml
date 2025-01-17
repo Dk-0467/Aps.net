@@ -208,8 +208,7 @@
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-                             with font-awesome or any other icon font library -->
+                        <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
                             <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -220,23 +219,32 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <p class="nav-link active"><i class="far fa-circle nav-icon"></i> @Html.ActionLink("Sản phẩm", "Index", "Product")</p>
+                                    <a href="@Url.Action("Index", "Product")" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Product" ? "active" : "")">
+                                        <i class="far fa-circle nav-icon"></i> Sản phẩm
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <p class="nav-link"><i class="far fa-circle nav-icon"></i> @Html.ActionLink("Danh mục", "Index", "Category")</p>
+                                    <a href="@Url.Action("Index", "Category")" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Category" ? "active" : "")">
+                                        <i class="far fa-circle nav-icon"></i> Danh mục
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <p class="nav-link"><i class="far fa-circle nav-icon"></i> @Html.ActionLink("Thương hiệu", "Index", "Brand")</p>
+                                    <a href="@Url.Action("Index", "Brand")" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Brand" ? "active" : "")">
+                                        <i class="far fa-circle nav-icon"></i> Thương hiệu
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <p class="nav-link"><i class="far fa-circle nav-icon"></i> @Html.ActionLink("Người dùng", "Index", "User")</p>
+                                    <a href="@Url.Action("Index", "User")" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "User" ? "active" : "")">
+                                        <i class="far fa-circle nav-icon"></i> Người dùng
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <p class="nav-link"><i class="far fa-circle nav-icon"></i> @Html.ActionLink("Đơn hàng", "Index", "Order")</p>
+                                    <a href="@Url.Action("Index", "Order")" class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Order" ? "active" : "")">
+                                        <i class="far fa-circle nav-icon"></i> Đơn hàng
+                                    </a>
                                 </li>
                             </ul>
                         </li>
-
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

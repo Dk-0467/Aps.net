@@ -44,8 +44,7 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             }
 
             ViewBag.CurrentFilter = SearchString;
-            //số lượng item của 1 trang = 4
-            int pageSize = 5;
+            int pageSize = 8;
             int pageNumber = (page ?? 1);
             //sắp xếp theo id sản phẩm, sp mới đưa lên đầu
             lstProduct = lstProduct.OrderByDescending(n => n.Id).ToList();
@@ -73,24 +72,47 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             this.LoadData();
             try
             {
+                // Kiểm tra thông tin bắt buộc
+                if (string.IsNullOrEmpty(objProduct.Name))
+                {
+                    ModelState.AddModelError("Name", "Tên sản phẩm là bắt buộc.");
+                }
+                if (objProduct.Price <= 0)
+                {
+                    ViewBag.error = "Giá sản phẩm phải lớn hơn 0.";
+                }
+                if (objProduct.ImageUpload == null)
+                {
+                    ViewBag.error =  "Ảnh sản phẩm là bắt buộc.";
+                }
+
+                // Nếu có lỗi, quay lại view để hiển thị
+                if (!ModelState.IsValid)
+                {
+                    return View(objProduct);
+                }
+
+                // Lưu ảnh sản phẩm
                 if (objProduct.ImageUpload != null)
                 {
                     string fileName = Path.GetFileNameWithoutExtension(objProduct.ImageUpload.FileName);
                     string extension = Path.GetExtension(objProduct.ImageUpload.FileName);
                     fileName = fileName + "_" + long.Parse(DateTime.Now.ToString("yyyyMMddhhmmss")) + extension;
                     objProduct.Avatar = fileName;
-                    objProduct.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
+                    objProduct.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
                 }
+
+                // Thêm sản phẩm vào database
                 objWebsiteBanHangEntities.Products.Add(objProduct);
                 objWebsiteBanHangEntities.SaveChanges();
                 return RedirectToAction("Index");
-
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return RedirectToAction("Index");
+                // Log lỗi nếu cần
+                ViewBag.ErrorMessage = "Có lỗi xảy ra: " + ex.Message;
+                return View(objProduct);
             }
-
         }
 
         [HttpGet]
@@ -120,24 +142,42 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
         {
             this.LoadData();
 
-            if (objProduct.ImageUpload != null && !string.IsNullOrEmpty(objProduct.ImageUpload.FileName))
-            {
-                string fileName = Path.GetFileNameWithoutExtension(objProduct.ImageUpload.FileName);
-                string extension = Path.GetExtension(objProduct.ImageUpload.FileName);
-                fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extension;
-                objProduct.Avatar = fileName;
-                objProduct.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
-            }
-
-            // Kiểm tra xem thực thể đã được theo dõi chưa
+            // Lấy sản phẩm hiện tại từ cơ sở dữ liệu
             var existingProduct = objWebsiteBanHangEntities.Products.Find(objProduct.Id);
+
             if (existingProduct != null)
             {
+                if (objProduct.ImageUpload != null && !string.IsNullOrEmpty(objProduct.ImageUpload.FileName))
+                {
+                    // Xử lý nếu có tải lên ảnh mới
+                    string fileName = Path.GetFileNameWithoutExtension(objProduct.ImageUpload.FileName);
+                    string extension = Path.GetExtension(objProduct.ImageUpload.FileName);
+                    fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extension;
+                    objProduct.Avatar = fileName;
+                    objProduct.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
+                }
+                else
+                {
+                    // Giữ nguyên ảnh cũ
+                    objProduct.Avatar = existingProduct.Avatar;
+                }
+
+                // Cập nhật thông tin sản phẩm
                 objWebsiteBanHangEntities.Entry(existingProduct).CurrentValues.SetValues(objProduct);
                 objWebsiteBanHangEntities.Entry(existingProduct).State = EntityState.Modified;
             }
             else
             {
+                // Trường hợp sản phẩm không tồn tại
+                if (objProduct.ImageUpload != null && !string.IsNullOrEmpty(objProduct.ImageUpload.FileName))
+                {
+                    string fileName = Path.GetFileNameWithoutExtension(objProduct.ImageUpload.FileName);
+                    string extension = Path.GetExtension(objProduct.ImageUpload.FileName);
+                    fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extension;
+                    objProduct.Avatar = fileName;
+                    objProduct.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
+                }
+
                 objWebsiteBanHangEntities.Products.Add(objProduct);
             }
 

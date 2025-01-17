@@ -12,6 +12,8 @@ namespace buiduckiem_aps.net.Models
         public List<Category> ListCategory { get; set; }
         public List<Brand> ListBrand { get; set; }
         public List<User> ListUser { get; set; }
+        public List<Order> ListOrder { get; set; }
+        public List<OrderDetail> ListOrderDetail { get; set; }
 
 
     }

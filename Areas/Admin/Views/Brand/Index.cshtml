@@ -190,7 +190,6 @@
                 <th>Tên thương hiệu</th>
                 <th>Hình ảnh</th>
                 <th>Slug</th>
-                <th>Thứ tự hiển thị</th>
                 <th>Thao tác</th>
             </tr>
         </thead>
@@ -211,7 +210,6 @@
                         }
                     </td>
                     <td>@item.Slug</td>
-                    <td>@item.DisplayOrder</td>
                     <td>
                         <div class="d-flex gap-2">
                             <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-sm btn-warning">

@@ -3,252 +3,32 @@
   "WorkspaceRootPath": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|d:\\wed_it\\aps.net\\buiduckiem-aps.net\\areas\\admin\\views\\brand\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\brand\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\brand\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\models\\paritialmetadatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:models\\paritialmetadatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\models\\productmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:models\\productmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\context\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:context\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:context\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\context\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:context\\dbmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|d:\\wed_it\\aps.net\\buiduckiem-aps.net\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|d:\\wed_it\\aps.net\\buiduckiem-aps.net\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|d:\\wed_it\\aps.net\\buiduckiem-aps.net\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\category\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\contain\\contain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\contain\\contain.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\category\\allcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\category\\allcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\listinggridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\listinggridcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\containcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\containcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901D4500-C9B5-430B-A37E-71EEEF72A2CB}|buiduckiem-aps.net.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -258,751 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 293,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-06T05:23:00.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Details.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Brand\\Details.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAiwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:27:08.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAowHYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T07:04:14.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T12:17:23.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BrandController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\BrandController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BrandController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\BrandController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAowHsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T16:03:33.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAuwCIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:31:57.306Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwHAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T16:49:54.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Delete.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Brand\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:38:09.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:42:21.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Brand\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:04:51.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T15:28:22.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Brand\\Create.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Brand\\Create.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:32:28.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminAreaRegistration.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\AdminAreaRegistration.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "RelativeToolTip": "Areas\\Admin\\AdminAreaRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T12:15:34.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAAMAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T15:29:34.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAANUAAAAAAAAAAAAiwO8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T12:21:22.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T16:00:47.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T07:44:32.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T15:46:30.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T07:58:59.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:53:26.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAKgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T10:56:07.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProductMasterData.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\ProductMasterData.cs",
-              "RelativeDocumentMoniker": "Models\\ProductMasterData.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\ProductMasterData.cs",
-              "RelativeToolTip": "Models\\ProductMasterData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:22:52.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ParitialMetadataType.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\ParitialMetadataType.cs",
-              "RelativeDocumentMoniker": "Models\\ParitialMetadataType.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\ParitialMetadataType.cs",
-              "RelativeToolTip": "Models\\ParitialMetadataType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T09:11:23.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CartModel.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\CartModel.cs",
-              "RelativeDocumentMoniker": "Models\\CartModel.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\CartModel.cs",
-              "RelativeToolTip": "Models\\CartModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:42:40.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HomeModel.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\HomeModel.cs",
-              "RelativeDocumentMoniker": "Models\\HomeModel.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Models\\HomeModel.cs",
-              "RelativeToolTip": "Models\\HomeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T14:28:36.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Details.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T17:02:05.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T16:51:46.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T04:33:27.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T17:26:29.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Edit.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T17:30:25.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Delete.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\User\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T17:21:47.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T07:06:04.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T07:59:52.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T07:53:57.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T07:24:30.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T07:37:10.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Product.cs",
-              "RelativeDocumentMoniker": "Context\\Product.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Product.cs",
-              "RelativeToolTip": "Context\\Product.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA8wDEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T06:36:01.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Brand.cs",
-              "RelativeDocumentMoniker": "Context\\Brand.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Brand.cs",
-              "RelativeToolTip": "Context\\Brand.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T16:19:55.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAKUBAAAAAAAAAAAiwMoBAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T12:17:58.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T04:52:55.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T06:55:18.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Category.cs",
-              "RelativeDocumentMoniker": "Context\\Category.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\Category.cs",
-              "RelativeToolTip": "Context\\Category.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T07:03:28.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Order\\Delete.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T05:03:02.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwDEAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T08:45:09.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-04T06:12:57.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "dbModel.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\dbModel.edmx",
-              "RelativeDocumentMoniker": "Context\\dbModel.edmx",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Context\\dbModel.edmx [Diagram1]",
-              "RelativeToolTip": "Context\\dbModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-01-04T06:29:35.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:16:39.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
               "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwC8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:53:25.359Z"
+              "WhenOpened": "2025-01-17T10:38:24.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T09:03:58.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwE4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T15:25:53.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T15:44:18.893Z"
+              "WhenOpened": "2025-01-17T10:20:50.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Payment\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Payment\\Index.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Payment\\Index.cshtml",
-              "RelativeToolTip": "Views\\Payment\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAANYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T16:53:55.872Z"
+              "WhenOpened": "2025-01-17T08:37:46.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwBUAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T10:52:27.383Z"
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:36:41.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:26:33.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 4,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Detail.cshtml",
               "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Product\\Detail.cshtml",
               "RelativeToolTip": "Views\\Product\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:29:43.816Z"
+              "WhenOpened": "2025-01-17T07:02:24.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Contain.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Contain\\Contain.cshtml",
-              "RelativeDocumentMoniker": "Views\\Contain\\Contain.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Contain\\Contain.cshtml",
-              "RelativeToolTip": "Views\\Contain\\Contain.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T11:21:02.575Z"
+              "WhenOpened": "2025-01-17T07:00:43.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "AllCategory.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Category\\AllCategory.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\AllCategory.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Category\\AllCategory.cshtml",
-              "RelativeToolTip": "Views\\Category\\AllCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:53:47.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "ProductCategory.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Category\\ProductCategory.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\ProductCategory.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Category\\ProductCategory.cshtml",
-              "RelativeToolTip": "Views\\Category\\ProductCategory.cshtml",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T08:14:39.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "ContainController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ContainController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ContainController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ContainController.cs",
-              "RelativeToolTip": "Controllers\\ContainController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T11:19:05.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "ListingGridController.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ListingGridController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ListingGridController.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Controllers\\ListingGridController.cs",
-              "RelativeToolTip": "Controllers\\ListingGridController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:44:11.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T11:40:35.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Common.cs",
-              "DocumentMoniker": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Common.cs",
-              "RelativeDocumentMoniker": "Common.cs",
-              "ToolTip": "D:\\Wed_IT\\APS.NET\\buiduckiem-aps.net\\Common.cs",
-              "RelativeToolTip": "Common.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T08:22:54.278Z"
+              "WhenOpened": "2025-01-17T07:00:26.775Z"
             }
           ]
         }

@@ -3,37 +3,74 @@
     ViewBag.Title = "AllCategory";
 }
 
-<!-- ========================= SECTION CONTENT ========================= -->
-<section class="section-content padding-y">
+<section class="section-content padding-y" style="background-color: #f8f9fa;">
     <div class="container">
-
-        <nav class="row">
+        <h2 class="text-center mb-4" style="color: #333;">Tất Cả Danh Mục</h2>
+        <div class="row">
             @foreach (var item in Model)
             {
-                <div class="col-md-3">
-
-                    <div class="card card-category">
-                        <div class="img-wrap" style="background: #ffd7d7">
-                            <img src="~/Content/images/items/@item.Avatar">
+                <div class="col-md-3 mb-4">
+                    <div class="card card-category h-100 border-0 shadow-sm">
+                        <!-- Hình ảnh danh mục -->
+                        <div class="img-wrap position-relative overflow-hidden" style="background-color: #fff; height: 200px;">
+                            <img src="~/Content/images/items/@item.Avatar" alt="@item.Name" class="img-fluid h-100 w-100" style="object-fit: cover;">
+                            <div class="overlay d-flex align-items-center justify-content-center" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                                <a href="@Url.Action("ProductCategory", "Category", new { Id = item.Id })" class="btn btn-light btn-sm">View Details</a>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h4 class="card-title"> @Html.ActionLink(item.Name, "ProductCategory", "Category", new { @Id = item.Id }, null)</h4>
-                            <ul class="list-menu">
-                                <li><a href="">Unisex T shirts</a></li>
-                                <li><a href="">Casual shirts</a></li>
-                                <li><a href="">Scherf Ice cream</a></li>
-                                <li><a href="">Another category</a></li>
-                                <li><a href="">Great items name</a></li>
-                                <li><a href="">Great items name</a></li>
-                            </ul>
+                        <!-- Nội dung danh mục -->
+                        <div class="card-body text-center">
+                            <h5 class="card-title font-weight-bold mb-3">
+                                @Html.ActionLink(item.Name, "ProductCategory", "Category", new { Id = item.Id }, new { @class = "text-dark text-decoration-none" })
+                            </h5>
+                            
                         </div>
                     </div>
-                </div> <!-- col.// -->
-
+                </div>
             }
-        </nav> <!-- row.// -->
-
-
-    </div> <!-- container .//  -->
+        </div>
+    </div>
 </section>
-<!-- ========================= SECTION CONTENT END// ========================= -->
+
+<style>
+    /* Phong cách cho thẻ danh mục */
+    .card-category {
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-category .img-wrap {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-category .overlay {
+            opacity: 0;
+        }
+
+        .card-category .img-wrap:hover .overlay {
+            opacity: 1;
+        }
+
+    /* Tiêu đề */
+    .card-title {
+        font-size: 18px;
+        color: #333;
+    }
+
+    /* Danh sách menu */
+    .list-unstyled li a {
+        color: #6c757d;
+        transition: color 0.2s;
+    }
+
+        .list-unstyled li a:hover {
+            color: #007bff;
+            text-decoration: none;
+        }
+</style>

@@ -1,59 +1,40 @@
 ﻿@model buiduckiem_aps.net.Context.User
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "User Details";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<div class="card shadow-sm mb-4">
+    <div class="card-header">
+        <h4 class="m-0">Chi Tiết Người Dùng</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Họ</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FirstName)</dd>
 
-<div>
-    <h4>User</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.FirstName)
-        </dt>
+            <dt class="col-sm-4">Tên</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LastName)</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.FirstName)
-        </dd>
+            <dt class="col-sm-4">Email</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Password)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Password)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.IsAdmin)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.IsAdmin)
-        </dd>
-
-    </dl>
+            <dt class="col-sm-4">Quyền</dt>
+            <dd class="col-sm-9">
+                @if (Model.IsAdmin.HasValue && Model.IsAdmin.Value)
+                {
+                    <span class="badge bg-success">Quản trị viên</span>
+                }
+                else
+                {
+                    <span class="badge bg-secondary">Người dùng</span>
+                }
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary btn-sm" })
+        @Html.ActionLink("Back to List", "Index", new { @class = "btn btn-secondary btn-sm" })
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

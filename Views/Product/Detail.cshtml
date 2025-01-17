@@ -20,9 +20,15 @@
                 data:  JSON.stringify(model) ,
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
-                success: function () {
-                    alert("Thêm giỏ hàng thành công!")
-                    $('#CartCount').text(0);
+                success: function (response) {
+                    if (response.Status === "NotLoggedIn") {
+                        alert("Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng!");
+                    } else if (response.Status != "Success") {
+                        alert("Thêm giỏ hàng thành công!");
+                        $('#CartCount').text(response.CartCount);
+                    } else {
+                        alert("Có lỗi xảy ra, vui lòng thử lại!");
+                    }
                 },
                 error: function () {
                     alert("Lỗi trong khi thêm vào giỏ hàng!");
@@ -54,10 +60,10 @@
                             <div> <a href="#"><img src="~/Content/images/items/@Model.Avatar"></a></div>
                         </div> <!-- slider-product.// -->
                         <div class="thumbs-wrap">
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-1.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-2.jpg"></a>
-                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/15-1.jpg"></a>
+                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/@Model.Avatar"></a>
+                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/@Model.Avatar"></a>
+                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/@Model.Avatar"></a>
+                            <a href="#" class="item-thumb"> <img src="~/Content/images/items/@Model.Avatar"></a>
                         </div> <!-- slider-nav.// -->
                     </article> <!-- gallery-wrap .end// -->
                 </div> <!-- card.// -->
@@ -86,7 +92,7 @@
                         <span class="text-muted">USD 562.65 incl. VAT</span>
                     </div> <!-- price-detail-wrap .// -->
                     <p>
-                        @*@Model.ShortDes*@
+                        @Model.ShortDes
                     </p>
 
                     <dl class="row">
@@ -127,8 +133,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <h5 class="title-description">Description</h5>
-                @*@Model.FullDescription*@
+                <h5 class="title-description">Thông tin sản phẩm</h5>
+                @Model.FullDescription
             </div> <!-- col.// -->
 
             <aside class="col-md-4">

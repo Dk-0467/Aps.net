@@ -1,4 +1,5 @@
 ﻿using buiduckiem_aps.net.Context;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,36 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
         WebsiteBanHangEntities objWebsiteBanHangEntities = new WebsiteBanHangEntities();
 
         // GET: Admin/Order
-        public ActionResult Index()
+        public ActionResult Index(string currentFilter, string SearchString, int? page)
         {
-            var lstOrder = objWebsiteBanHangEntities.Orders.ToList();
-            return View(lstOrder);
+            var lstOrder = new List<Order>();
+            var lstOrderDetail = new List<OrderDetail>();
+
+            if (SearchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                SearchString = currentFilter;
+            }
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                //lấy ds sản phẩm theo từ khóa tìm kiếm
+                lstOrder = objWebsiteBanHangEntities.Orders.Where(n => n.Name.Contains(SearchString)).ToList();
+            }
+            else
+            {
+                //lấy all sån phẩm trong bảng product
+                lstOrder = objWebsiteBanHangEntities.Orders.ToList();
+            }
+
+            ViewBag.CurrentFilter = SearchString;
+            int pageSize = 8;
+            int pageNumber = (page ?? 1);
+            //sắp xếp theo id sản phẩm, sp mới đưa lên đầu
+            lstOrder = lstOrder.OrderByDescending(n => n.Id).ToList();
+            return View(lstOrder.ToPagedList(pageNumber, pageSize));
         }
 
         [HttpGet]

@@ -38,7 +38,6 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             }
 
             ViewBag.CurrentFilter = SearchString;
-            //số lượng item của 1 trang = 4
             int pageSize = 5;
             int pageNumber = (page ?? 1);
             //sắp xếp theo id sản phẩm, sp mới đưa lên đầu
@@ -70,7 +69,7 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
                     string extension = Path.GetExtension(objCategory.ImageUpload.FileName);
                     fileName = fileName + "_" + long.Parse(DateTime.Now.ToString("yyyyMMddhhmmss")) + extension;
                     objCategory.Avatar = fileName;
-                    objCategory.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
+                    objCategory.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
                 }
                 objWebsiteBanHangEntities.Categories.Add(objCategory);
                 objWebsiteBanHangEntities.SaveChanges();
@@ -90,10 +89,21 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             var objCategory = objWebsiteBanHangEntities.Categories.Where(n => n.Id == id).FirstOrDefault();
             return View(objCategory);
         }
+
         [HttpPost]
         public ActionResult Delete(Category objCa)
         {
             var objCategory = objWebsiteBanHangEntities.Categories.Where(n => n.Id == objCa.Id).FirstOrDefault();
+
+            // Kiểm tra nếu danh mục có liên kết với sản phẩm
+            var linkedProducts = objWebsiteBanHangEntities.Products.Any(p => p.CategoryId == objCategory.Id);
+            if (linkedProducts)
+            {
+                ViewBag.ErrorMessage = "Không thể xóa danh mục này vì đã có sản phẩm liên kết.";
+                return View(objCategory);
+            }
+
+            // Xóa danh mục nếu không có liên kết
             objWebsiteBanHangEntities.Categories.Remove(objCategory);
             objWebsiteBanHangEntities.SaveChanges();
             return RedirectToAction("Index");
@@ -109,17 +119,32 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Edit(Category objCategory)
         {
-            if (objCategory.ImageUpload != null && !string.IsNullOrEmpty(objCategory.ImageUpload.FileName))
-            {
-                string fileName = Path.GetFileNameWithoutExtension(objCategory.ImageUpload.FileName);
-                string extention = Path.GetExtension(objCategory.ImageUpload.FileName);
-                fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extention;
-                objCategory.Avatar = fileName;
-                objCategory.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
-            }
+            // Lấy danh mục hiện tại từ cơ sở dữ liệu
+            var existingCategory = objWebsiteBanHangEntities.Categories.Find(objCategory.Id);
 
-            objWebsiteBanHangEntities.Entry(objCategory).State = EntityState.Modified;
-            objWebsiteBanHangEntities.SaveChanges();
+            if (existingCategory != null)
+            {
+                if (objCategory.ImageUpload != null && !string.IsNullOrEmpty(objCategory.ImageUpload.FileName))
+                {
+                    // Xử lý nếu có tải lên ảnh mới
+                    string fileName = Path.GetFileNameWithoutExtension(objCategory.ImageUpload.FileName);
+                    string extension = Path.GetExtension(objCategory.ImageUpload.FileName);
+                    fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extension;
+                    objCategory.Avatar = fileName;
+                    objCategory.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
+                }
+                else
+                {
+                    // Giữ nguyên ảnh cũ
+                    objCategory.Avatar = existingCategory.Avatar;
+                }
+
+                // Cập nhật thông tin danh mục
+                objWebsiteBanHangEntities.Entry(existingCategory).CurrentValues.SetValues(objCategory);
+                objWebsiteBanHangEntities.Entry(existingCategory).State = EntityState.Modified;
+
+                objWebsiteBanHangEntities.SaveChanges();
+            }
 
             return RedirectToAction("Index");
         }

@@ -38,7 +38,6 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             }
 
             ViewBag.CurrentFilter = SearchString;
-            //số lượng item của 1 trang = 4
             int pageSize = 5;
             int pageNumber = (page ?? 1);
             //sắp xếp theo id sản phẩm, sp mới đưa lên đầu
@@ -70,7 +69,7 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
                     string extension = Path.GetExtension(objBrand.ImageUpload.FileName);
                     fileName = fileName + "_" + long.Parse(DateTime.Now.ToString("yyyyMMddhhmmss")) + extension;
                     objBrand.Avatar = fileName;
-                    objBrand.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
+                    objBrand.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
                 }
                 objWebsiteBanHangEntities.Brands.Add(objBrand);
                 objWebsiteBanHangEntities.SaveChanges();
@@ -90,12 +89,28 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
             var objBrand = objWebsiteBanHangEntities.Brands.Where(n => n.Id == id).FirstOrDefault();
             return View(objBrand);
         }
+
         [HttpPost]
         public ActionResult Delete(Brand objBra)
         {
+            // Kiểm tra xem thương hiệu có liên kết với sản phẩm nào không
+            var isBrandLinkedToProducts = objWebsiteBanHangEntities.Products.Any(p => p.BrandId == objBra.Id);
+
+            if (isBrandLinkedToProducts)
+            {
+                // Gửi thông báo lỗi đến View
+                ViewBag.ErrorMessage = "Không thể xóa thương hiệu này vì nó đã được liên kết với sản phẩm.";
+                var objBr = objWebsiteBanHangEntities.Brands.Where(n => n.Id == objBra.Id).FirstOrDefault();
+                return View(objBr);
+            }
+
             var objBrand = objWebsiteBanHangEntities.Brands.Where(n => n.Id == objBra.Id).FirstOrDefault();
-            objWebsiteBanHangEntities.Brands.Remove(objBrand);
-            objWebsiteBanHangEntities.SaveChanges();
+            if (objBrand != null)
+            {
+                objWebsiteBanHangEntities.Brands.Remove(objBrand);
+                objWebsiteBanHangEntities.SaveChanges();
+            }
+
             return RedirectToAction("Index");
         }
 
@@ -109,17 +124,32 @@ namespace buiduckiem_aps.net.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Edit(Brand objBrand)
         {
-            if (objBrand.ImageUpload != null && !string.IsNullOrEmpty(objBrand.ImageUpload.FileName))
-            {
-                string fileName = Path.GetFileNameWithoutExtension(objBrand.ImageUpload.FileName);
-                string extention = Path.GetExtension(objBrand.ImageUpload.FileName);
-                fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extention;
-                objBrand.Avatar = fileName;
-                objBrand.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/"), fileName));
-            }
+            // Lấy thương hiệu hiện tại từ cơ sở dữ liệu
+            var existingBrand = objWebsiteBanHangEntities.Brands.Find(objBrand.Id);
 
-            objWebsiteBanHangEntities.Entry(objBrand).State = EntityState.Modified;
-            objWebsiteBanHangEntities.SaveChanges();
+            if (existingBrand != null)
+            {
+                if (objBrand.ImageUpload != null && !string.IsNullOrEmpty(objBrand.ImageUpload.FileName))
+                {
+                    // Xử lý nếu có tải lên ảnh mới
+                    string fileName = Path.GetFileNameWithoutExtension(objBrand.ImageUpload.FileName);
+                    string extension = Path.GetExtension(objBrand.ImageUpload.FileName);
+                    fileName = fileName + "_" + DateTime.Now.ToString("yyyyMMddhhmmss") + extension;
+                    objBrand.Avatar = fileName;
+                    objBrand.ImageUpload.SaveAs(Path.Combine(Server.MapPath("~/Content/images/items/"), fileName));
+                }
+                else
+                {
+                    // Giữ nguyên ảnh cũ
+                    objBrand.Avatar = existingBrand.Avatar;
+                }
+
+                // Cập nhật thông tin thương hiệu
+                objWebsiteBanHangEntities.Entry(existingBrand).CurrentValues.SetValues(objBrand);
+                objWebsiteBanHangEntities.Entry(existingBrand).State = EntityState.Modified;
+
+                objWebsiteBanHangEntities.SaveChanges();
+            }
 
             return RedirectToAction("Index");
         }

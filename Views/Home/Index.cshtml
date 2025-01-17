@@ -3,6 +3,7 @@
     ViewBag.Title = "Home Page";
 }
 
+
 <div class="container">
     <!-- ========================= SECTION MAIN  ========================= -->
     <section class="section-main padding-y">
@@ -15,12 +16,12 @@
                         <nav class="nav-home-aside">
                             <ul class="menu-category">
                                 @foreach (var item in Model.ListCategory)
-                                {
+                                 {
                                     <li>
                                         @Html.ActionLink(item.Name, "ProductCategory", "Category", new { @Id = item.Id}, null)
                                     </li>
 
-                                }
+                                 }
                             </ul>
                         </nav>
                     </aside> <!-- col.// -->
@@ -94,7 +95,7 @@
                 </div>
             </div> <!-- col.// -->
             <div class="row no-gutters items-wrap">
-                @foreach (var item in Model.ListProduct.Where(n => n.TypeId == 1).Take(3))
+                @foreach (var item in Model.ListProduct.Where(n => n.TypeId == 1).Take(4))
                 {
                     <div class="col-md col-6">
                         <figure class="card-product-grid card-sm">
@@ -124,10 +125,10 @@
                 <div class="col-md-3">
 
                     <div class="home-category-banner bg-light-orange">
-                        <h5 class="title">Best trending clothes only for summer</h5>
-                        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h5 class="title">Tất cả trải nghiệm Apple. Vô vàn tiềm năng đang chờ bạn.</h5>
+                        <p>Có thể sử dụng phiên bản beta của Apple Intelligence trên tất cả các phiên bản iPhone 16, các phiên bản iPhone 15 Pro, iPhone 15 Pro Max.  </p>
                         <a href="#" class="btn btn-outline-primary rounded-pill">Source now</a>
-                        <img src="~/Content/images/items/2.jpg" class="img-bg">
+                        <img src="~/Content/images/items/09.jpg" class="img-bg">
                     </div>
 
                 </div> <!-- col.// -->
@@ -155,7 +156,7 @@
     <!-- =============== SECTION 2 =============== -->
     <section class="padding-bottom">
         <header class="section-heading heading-line">
-            <h4 class="title-section text-uppercase">Sam sung</h4>
+            <h4 class="title-section text-uppercase">Samsung</h4>
         </header>
 
         <div class="card card-home-category">
@@ -163,10 +164,10 @@
                 <div class="col-md-3">
 
                     <div class="home-category-banner bg-light-orange">
-                        <h5 class="title">Machinery items for manufacturers</h5>
-                        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h5 class="title">Vài nét về thương hiệu Samsung </h5>
+                        <p>Samsung là một công ty đa quốc gia có trụ sở chính đặt tại Hàn Quốc, hoạt động trong các lĩnh vực sản xuất điện thoại di động, máy tính bảng, đồng hồ thông minh, TV, màn hình, máy chiếu, loa, tủ lạnh, máy giặt, máy hút bụi, máy lọc không khí…. </p>
                         <a href="#" class="btn btn-outline-primary rounded-pill">Source now</a>
-                        <img src="~/Content/images/items/14.jpg" class="img-bg">
+                        <img src="~/Content/images/items/galaxys23.jpg" class="img-bg">
                     </div>
 
                 </div> <!-- col.// -->
@@ -203,10 +204,10 @@
                 <div class="col-md-3">
 
                     <div class="home-category-banner bg-light-orange">
-                        <h5 class="title">Machinery items for manufacturers</h5>
-                        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h5 class="title">"MI' là viết tắt của "Internet di động'.</h5>
+                        <p>Điện thoại Xiaomi từ khi xuất hiện trên thị trường smartphone, đã dễ dàng chiếm được trái tim của người tiêu dùng bằng sự kết hợp tinh tế giữa hiệu suất ổn định và giá trị vô cùng hấp dẫn.</p>
                         <a href="#" class="btn btn-outline-primary rounded-pill">Source now</a>
-                        <img src="~/Content/images/items/14.jpg" class="img-bg">
+                        <img src="~/Content/images/items/redminote13.jpg" class="img-bg">
                     </div>
 
                 </div> <!-- col.// -->

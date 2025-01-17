@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using buiduckiem_aps.net.Context;
 using buiduckiem_aps.net.Models;
 using System.Data.Entity.Infrastructure;
 using System.Security.Cryptography;
 using System.Text;
+
 
 namespace buiduckiem_aps.net.Controllers
 {
@@ -36,26 +36,38 @@ namespace buiduckiem_aps.net.Controllers
         {
             if (ModelState.IsValid)
             {
-                var check = objWebsiteBanHangEntities.Users.FirstOrDefault(s => s.Email == _user.Email);
+                // Loại bỏ khoảng trắng và chuyển email thành chữ thường để kiểm tra chính xác
+                var emailToCheck = _user.Email.Trim().ToLower();
+
+                // Kiểm tra sự tồn tại của email trong cơ sở dữ liệu
+                var check = objWebsiteBanHangEntities.Users
+                    .FirstOrDefault(s => s.Email.Trim().ToLower() == emailToCheck);
+
                 if (check == null)
                 {
+                    // Mã hóa mật khẩu
                     _user.Password = GetMD5(_user.Password);
+
+                    // Tắt ValidateOnSaveEnabled để bỏ qua kiểm tra tự động của Entity Framework
                     objWebsiteBanHangEntities.Configuration.ValidateOnSaveEnabled = false;
+
+                    // Thêm người dùng mới
                     objWebsiteBanHangEntities.Users.Add(_user);
                     objWebsiteBanHangEntities.SaveChanges();
+
+                    // Chuyển hướng về trang Index sau khi đăng ký thành công
                     return RedirectToAction("Index");
                 }
                 else
                 {
-                    ViewBag.error = "Email already exists";
-                    return View();
+                    // Hiển thị thông báo lỗi nếu email đã tồn tại
+                    ViewBag.error = "Email đã tồn tại. Vui lòng sử dụng email khác.";
+                    return View(_user);
                 }
-
-
             }
-            return View();
 
-
+            // Trả lại view nếu dữ liệu không hợp lệ
+            return View(_user);
         }
         //create a string MD5
         public static string GetMD5(string str)
@@ -112,6 +124,33 @@ namespace buiduckiem_aps.net.Controllers
             Session.Clear();//remove session
             return RedirectToAction("Login");
         }
+
+        [HttpGet]
+        public ActionResult Search(string query, string category_name)
+        {
+            HomeModel objHomeModel = new HomeModel();
+
+            // Lấy danh sách các danh mục
+            objHomeModel.ListCategory = objWebsiteBanHangEntities.Categories.ToList();
+
+            // Lọc sản phẩm theo từ khóa và loại sản phẩm
+            var products = objWebsiteBanHangEntities.Products.AsEnumerable();
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                products = products.Where(p => p.Name.Contains(query) || p.FullDescription.Contains(query));
+            }
+
+            if (!string.IsNullOrEmpty(category_name))
+            {
+                products = products.Where(p => p.Category.Name == category_name);
+            }
+
+            objHomeModel.ListProduct = products.ToList();
+
+            return View(objHomeModel);
+        }
+
     }
 
 }
